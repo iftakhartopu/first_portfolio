@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&family=Roboto:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(./images/andrew-kliatskyi-P5v-dOEsmdw-unsplash.jpg);
+    background-size: 100% 100%;
+}
+
+/* nav bar start */
+.nav_bar{
+    background-image: url(./images/black-paper-background.webp);
+    position:sticky;
+    top: 0;
+}
+.logo img{
+}
+    
+.nav_list{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+.nav_list li{
+    margin: 5px;
+    padding: 10px 15px;
+}
+.nav_list li a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+.nav_list li:hover a{
+    color: rgb(239, 19, 255);
+    border: 1px solid rgb(239, 19, 255);
+}
+/* nav bar end */
+
+.all_section{
+    width: 90%;
+    margin: 50px auto;
+}
+
+/*first box Start  */
+
+.first_box{
+    display: flex;
+    background-image: url(./images/black-paper-background.webp);
+    width: 100%;
+}
+.all_items{
+    padding: 90px 10px;
+}
+.first_box_half{
+    width: 50%;
+    padding-left:20px ;
+}
+.first_left{
+    display: flex;
+    align-items: center;
+}
+.name{
+    color: white;
+}
+.name span{
+    color: rgb(239, 19, 255);
+    font-size: 200%;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+.info_1{
+    color: white;
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+    margin: 2px;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 25px;
+}
+.icons a:hover{
+    color: rgb(239, 19, 255);te;
+}
+.first_image img{
+    width: 90%;
+}
+/* first box end */
+
+/* second box start */
+
+.about_me{
+    /* background-color: bisque; */
+    /* background-image: url(./images/about_back.jpg); */
+    margin-top: 60px;
+}
+.about_title{
+    text-align: center;
+    padding: 35px 0;
+    color: white;
+}
+.second_box{
+    display: flex;
+}
+.second_box_half{
+    width: 50%;
+    padding: 10px;
+}
+.second_box_half h3{
+    padding-bottom: 10px;
+    color: white;
+    
+}
+.skill_bar h5{
+    color: white;
+    font-weight: normal;
+}
+.percent_bar{
+    background-color: rgb(136, 135, 135);
+    border-radius: 10px;
+    height: 12px;
+    
+}
+.skills{
+    background-color: aqua;
+    width: 80%;
+    height: 12px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+   
+    
+}
+.skill_css{
+    background-color: blueviolet;
+    width: 50%;
+}
+.skill_bootstrap{
+    background-color: coral;
+    width: 10%;
+}
+.discription{
+    padding-bottom: 10px;
+}
+.lorem{
+    text-align: justify;
+    /* font-weight: bold; */
+    color: white;
+}
+
+/* second box end */
+
+/* third box start */
+
+.third_box{
+    display: flex;
+}
+.education{
+    flex: 1;
+    padding:10px ;
+}
+.qualification{
+    margin-top: 60px;
+}
+.education_title{
+    text-align: center;
+    padding: 25px 0;
+    color:  white;
+}
+.education img{
+    width: 100%;
+    height: 300px;
+}
+.education h4{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
+.education h5{
+    text-align: center;
+    color: rgb(239, 19, 255);;
+    font-weight: normal;
+}
+.education:hover .box1{
+    box-shadow: rgb(239, 24, 250) 0px 5px 15px;
+}
+.education:hover .box2{
+    box-shadow: rgb(239, 24, 250) 0px 5px 15px;
+}
+.education:hover .box3{
+    box-shadow: rgb(239, 24, 250) 0px 5px 15px;
+}
+
+/* third box end */
+
+/* fourth box start */
+.all_project{
+    margin-top: 60px;
+}
+.project_title{
+    text-align: center;
+    padding: 25px 0;
+    color: white;
+}
+.fourth_box{
+    display: flex;
+    padding: 10px;
+}
+.project{
+    flex: 1;
+    padding: 10PX;
+}
+.project img{
+    width: 100%;
+    height: 400p
+}
+.project h4{
+    text-align: center;
+    color: rgb(239, 19, 255);
+    font-weight: normal;
+}
+.project h5{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
+.project:hover .prjt_one{
+    box-shadow: rgb(239, 24, 250) 0px 5px 15px;
+}
+.project:hover .prjt_two{
+    box-shadow: rgb(239, 24, 250) 0px 5px 15px;
+}
+.project:hover .prjt_three{
+    box-shadow: rgb(239, 24, 250) 0px 5px 15px;
+}
+/* fourth box end */
+
+/* fifth box start */
+
+.contacts{
+    margin-top: 60px;
+    background-image: url(./images/f\ \ lastttt.avif);
+   
+}
+.contact_title{
+    text-align: center;
+    padding: 10px 0;
+    padding-bottom: 30px;
+    color:white;
+}
+.fifth_box{
+    display: flex;
+    
+}
+.contact_one{
+    flex: 1;
+    padding-left: 150px;
+}
+.contact_one h5 i{
+    color:rgb(239, 19, 255);;
+}
+.contact_one h3{
+    padding-bottom: 10px;
+    color: rgb(239, 19, 255);
+    font-weight: normal;
+}
+.contact_one h5{
+    color: white;
+    font-weight: normal
+}
+.contact_one h4{
+    color: white;
+    font-weight: normal
+}
+.contact_one h4 i{
+    color: rgb(239, 19, 255);;
+}
+.contact_one h4 span{
+    font-size:x-large ;
+    color: rgb(239, 19, 255);;
+}
+
+
+
+
+/* fifth box end */
